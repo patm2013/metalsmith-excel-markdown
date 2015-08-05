@@ -20,7 +20,7 @@ A config option ('folder') can also be passed to specify the location of your ex
 
 ### Metalsmith initialization
 
-'''javascript
+```javascript
 var exlmd = require('metalsmith-excel-markdown);
 Metalsmith(__dirname)
   .destination('./build')
@@ -28,6 +28,6 @@ Metalsmith(__dirname)
   .build(function(err) {
     if (err) { throw err; }
   });
-'''
+```
 
 See the example src files for examples on how to format the original markdown files. There is also an example repo you can clone [here](https://github.com/patm2013/metalsmith-excelTables)
