@@ -19,7 +19,7 @@ It works by scanning files for 'table', 'select', and/or 'additional' attributes
 A config option ('folder') can also be passed to specify the location of your excel files. By default this is set to 'xlsx/'
 
 ### Metalsmith initialization
-''' js
+'''javascript
 var exlmd = require('metalsmith-excel-markdown);
 Metalsmith(__dirname)
   .destination('./build')
