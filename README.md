@@ -30,4 +30,16 @@ Metalsmith(__dirname)
   });
 ```
 
-See the example src files for examples on how to format the original markdown files. There is also an example repo you can clone [here](https://github.com/patm2013/metalsmith-excelTables)
+### Example Source File
+```yaml
+---
+table: 'people.xlsx'
+select: 'First_Name, Age, Email'
+additional: 'WHERE First_Name = "Patrick" ORDER BY Age ASC
+---
+#This table shows users first names, their age, and their email.
+
+<TABLE WILL BE APPENDED AT THE BOTTOM OF THE FILE>
+```
+
+See the example src files for more examples on how to format the original markdown files. There is also an example repo you can clone [here](https://github.com/patm2013/metalsmith-excelTables)
