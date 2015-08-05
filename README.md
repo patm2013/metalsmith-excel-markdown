@@ -9,11 +9,11 @@ This metalsmith plugin allows you to query excel files using AlaSQL and then con
 ###General
 It works by scanning files for 'table', 'select', and/or 'additional' attributes. 
 
-+The table attribute corresponds to the Excel file to query
-+The select attribute lets you add select statements
--If no select statement is specified, the default statement is '*'
-+The additional attribute lets you add other SQL statements such as WHERE and ORDER BY
--If no additional attribute is specified then it is ignored
+*The table attribute corresponds to the Excel file to query
+*The select attribute lets you add select statements
+  *If no select statement is specified, the default statement is '*'
+*The additional attribute lets you add other SQL statements such as WHERE and ORDER BY
+  *If no additional attribute is specified then it is ignored
 
 ###Config
 A config option ('folder') can also be passed to specify the location of your excel files. By default this is set to 'xlsx/'
