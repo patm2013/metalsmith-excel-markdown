@@ -1,0 +1,26 @@
+{
+  "name": "metalsmith-excel-markdown",
+  "version": "1.0.1",
+  "description": "Metalsmith plugin to query Excel files and convert them to Markdown tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(git://github.com/patm2013/metalsmith-excel-markdown)"
+  },
+  "keywords": [
+    "metalsmith",
+    "excel",
+    "alasql",
+    "markdown"
+  ],
+  "author": "Patrick Moore",
+  "license": "MIT",
+  "dependencies": {
+    "alasql": "^0.2.0",
+    "lodash": "^3.10.1",
+    "markdown-table": "^0.4.0"
+  }
+}
