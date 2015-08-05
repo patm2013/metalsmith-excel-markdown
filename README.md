@@ -7,7 +7,7 @@ This metalsmith plugin allows you to query excel files using [AlaSQL](https://gi
 var exlmd = require('metalsmith-excel-markdown');
 Metalsmith(__dirname)
   .destination('./build')
-  .use(exl(config({folder: "path/to/excel_files"}))
+  .use(exlmd(config({folder: "path/to/excel_files"}))
   .build(function(err) {
     if (err) { throw err; }
   });
