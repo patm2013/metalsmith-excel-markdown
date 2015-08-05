@@ -8,6 +8,7 @@ This metalsmith plugin allows you to query excel files using AlaSQL and then con
 
 ###General
 It works by scanning files for 'table', 'select', and/or 'additional' attributes. 
+
 +The table attribute corresponds to the Excel file to query
 +The select attribute lets you add select statements
 -If no select statement is specified, the default statement is '*'
