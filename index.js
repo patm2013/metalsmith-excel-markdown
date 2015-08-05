@@ -27,7 +27,7 @@ function makeQry(root, tbl, select, additional){
   return qry;
 }
 
-exports.excelTables = function(config) {
+var excelTables = function(config) {
   config = _.defaults(config||{},{folder:"xlsx"});
 
   return function(files, metalsmith, done) {
@@ -64,3 +64,5 @@ exports.excelTables = function(config) {
     });
   };
 };
+
+module.exports = excelTables;
